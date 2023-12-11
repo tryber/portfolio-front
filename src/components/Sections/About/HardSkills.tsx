@@ -1,47 +1,47 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaFigma } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaFigma } from 'react-icons/fa';
 
-import { SiTailwindcss, SiVite, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiVite, SiTypescript } from 'react-icons/si';
 
-import Skill from "./Skill";
+import Skill from './Skill';
 
 function HardSkills() {
   // hardskills, react, git, vite, typescript
 
   const hardSkills = [
     {
-      title: "HTML5",
+      title: 'HTML5',
       icon: FaHtml5,
     },
     {
-      title: "CSS3",
+      title: 'CSS3',
       icon: FaCss3Alt,
     },
     {
-      title: "JavaScript",
+      title: 'JavaScript',
       icon: FaJs,
     },
     {
-      title: "React",
+      title: 'React',
       icon: FaReact,
     },
     {
-      title: "TypeScript",
+      title: 'TypeScript',
       icon: SiTypescript,
     },
     {
-      title: "Git",
+      title: 'Git',
       icon: FaGitAlt,
     },
     {
-      title: "Vite",
+      title: 'Vite',
       icon: SiVite,
     },
     {
-      title: "Figma",
+      title: 'Figma',
       icon: FaFigma,
     },
     {
-      title: "Tailwind",
+      title: 'Tailwind',
       icon: SiTailwindcss,
     },
   ];
@@ -49,7 +49,7 @@ function HardSkills() {
   return (
     <div className="flex flex-wrap gap-4 mb-8">
       {hardSkills.map((skill, index) => {
-        return <Skill key={index} title={skill.title} icon={skill.icon} />;
+        return <Skill key={ index } title={ skill.title } icon={ skill.icon } />;
       })}
     </div>
   );

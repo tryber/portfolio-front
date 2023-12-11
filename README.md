@@ -1,27 +1,11 @@
-# React + TypeScript + Vite
+# CMS HEADLESS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um "Headless CMS" é um sistema de gerenciamento de conteúdo que não possui uma camada de apresentação ou "front-end" embutida para a exibição do conteúdo. Em vez disso, ele fornece o conteúdo por meio de uma API, geralmente RESTful ou GraphQL, permitindo que o conteúdo seja consumido e exibido por qualquer cliente front-end de escolha, como websites, aplicativos móveis, dispositivos IoT, entre outros.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Em 2023, existem vários CMS Headless populares no mercado, cada um oferecendo um conjunto único de recursos e capacidades. Aqui estão alguns dos principais:
 
-## Expanding the ESLint configuration
+Contentful: Um dos mais populares CMS Headless, conhecido por sua API poderosa e flexibilidade. É usado por muitas empresas grandes para gerenciar e entregar conteúdo em diversos canais.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Strapi: Um CMS Headless de código aberto que oferece total liberdade de personalização. É muito apreciado por desenvolvedores devido à sua flexibilidade e facilidade de uso.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
